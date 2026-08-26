@@ -38,3 +38,6 @@ def swap_bookends(items):
 print(swap_bookends([1, 2, 3, 4, 5, 6]))  # [6, 2, 3, 4, 5, 1]
 print(swap_bookends(["red", "green", "blue"]))  # ["blue", "green", "red"]
 print(swap_bookends([8, 3]))  # [3, 8]
+
+# Authors
+Jerome Oldan
