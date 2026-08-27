@@ -7,7 +7,7 @@ This is my submission for the First Programming Assignment. The code demonstrate
 def rotate_word(text):
     return text[1:] + text[0] if text else text
 
-// Test cases
+# Test cases
 
 print(rotate_word("python"))  # "ythonp"
 print(rotate_word("logic"))  # "ogicl"
@@ -22,7 +22,7 @@ def make_username(first_name, last_name):
     return f"{clean_first}.{clean_last}"
 
 
-Test cases
+# Test cases
 
 print(make_username("Ada", "Lovelace"))  # "ada.lovelace"
 print(make_username("Alan", "Turing"))  # "alan.turing"
@@ -35,11 +35,12 @@ def swap_bookends(items):
     return [last, *middle, first]
 
 
-Test cases
+# Test cases
 
 print(swap_bookends([1, 2, 3, 4, 5, 6]))  # [6, 2, 3, 4, 5, 1]
 print(swap_bookends(["red", "green", "blue"]))  # ["blue", "green", "red"]
 print(swap_bookends([8, 3]))  # [3, 8]
 
 # Authors
+
 Jerome Oldan
