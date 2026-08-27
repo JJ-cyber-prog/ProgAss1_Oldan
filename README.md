@@ -7,7 +7,7 @@ This is my submission for the First Programming Assignment. The code demonstrate
 def rotate_word(text):
     return text[1:] + text[0] if text else text
 
-Test cases
+// Test cases
 
 print(rotate_word("python"))  # "ythonp"
 print(rotate_word("logic"))  # "ogicl"
